@@ -194,6 +194,7 @@ public class MainActivity extends AppCompatActivity {
     private void syncCookie(Context context, String url){
         try{
             Log.d("webView.syncCookie.url", url);
+            Log.d("webView.syncCookie.url", url);
             CookieSyncManager.createInstance(context);
             CookieManager cookieManager = CookieManager.getInstance();
             cookieManager.setAcceptCookie(true);
